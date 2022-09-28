@@ -1,4 +1,4 @@
-package practice2230922;
+package practice230922;
 
 public class ArrayFindTheSecoundMaxValue {
 

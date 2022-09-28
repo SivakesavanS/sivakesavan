@@ -10,7 +10,7 @@ public class Arraysint {
 num[0]=64;
 num[4]=62;
 
-System.out.println(num[0]);
+System.out.println(num[0	]);
 System.out.println(name);
 
 
