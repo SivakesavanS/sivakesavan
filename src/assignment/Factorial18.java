@@ -7,6 +7,7 @@ public class Factorial18 {
      int n=5;
      int b=1;
      while(n>0) {
+    	 //aaaa
     	 b=b*n;
     	 n--;
      }
