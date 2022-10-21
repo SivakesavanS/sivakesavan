@@ -4,7 +4,7 @@ public class ArmstrongNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-     int n=153;
+     int n=370;//153
      int b=0; 
      int k=n;
      int a=0;
@@ -12,7 +12,6 @@ public class ArmstrongNumber {
      int s=1;
      int d=0;
     while(n>0) {
-    	a=n%10;
     	b++;
     	n=n/10;
     }
@@ -20,12 +19,12 @@ public class ArmstrongNumber {
     while(k>0) {
     	a=k%10;
     	s=a;
-    	k=k/10;
-    	for(int c=1;c<b;c++) {
-    		s=s*a;
-    	}
-    	
+//    	for(int c=1;c<b;c++) {
+//    		s=s*a;
+//    	}
+    	s=a*a*a;
     		d=d+s;
+    		k=k/10;
     	}
     	if(h==d) {	
     	System.out.print("Armstrong number");
